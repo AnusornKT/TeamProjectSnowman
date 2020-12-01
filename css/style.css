@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 1px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.navbar {
+  background-color: #3490de;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.narbar_logo {
+  color: #f9f7f7;
+  font-size: 25px;
+}
+
+/* ----------------------- Header Section -----------------------  */
+#heading-section {
+  margin: 0 auto;
+}
+
+#heading-section .heading-section__text-n-links-box {
+  height: 85vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(128, 128, 128, 0.2),
+      rgb(0, 0, 0, 0.7)
+    ),
+    url(../images/pexels-public-domain-pictures-40541.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+/* ----  Text ---- */
+#heading-section .heading-section__subbox {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#heading-section .heading-section__subbox-text-box {
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 50px;
+}
+
+#heading-section .heading-primary-main {
+  display: block;
+  color: #eeeeee;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 19px;
+  /* Animation */
+  animation: moveInLeft 2s ease-in-out;
+}
+
+#heading-section .heading-primary-sub {
+  display: block;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 17px;
+
+  /* Animation */
+  animation: moveInRight;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-99px);
+  }
+  80% {
+    transform: translateX(9px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(99px);
+  }
+  80% {
+    transform: translateX(-9px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ----  Button ---- */
+.text-box a {
+  margin-top: 27px;
+}
+
+#heading-section .btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 17px 40px;
+  display: inline-block;
+  transition: all 0.5s;
+  color: white;
+  border: 1px solid #eeeeee;
+  border-radius: 27px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+#heading-section .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  font-weight: bolder;
+  background-color: #08d9d6;
+}
+
+#heading-section .btn-animated {
+  animation: moveInButton 3s;
+}
+
+@keyframes moveInButton {
+  /* first stage */
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  /* final stage */
+  100% {
+    opacity: 1;
+    /* Come back to the original position */
+    transform: translateX(0);
+  }
+}
+
+/* ----------------------- Introduction Section -----------------------  */
+#introduction .introduction_first-section {
+  background-color: #f0f5f9;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #393e46;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 200;
+}
+
+#introduction .introduction_first-section span {
+  font-weight: bolder;
+  color: #3490de;
+}
+
+#introduction .intro_hr_1,
+.intro_hr_2 {
+  width: 50%;
+  border-top: 1px solid #c9d6df;
+  margin: auto;
+}
+
+#introduction .intro_team-gamegoal,
+.intro_game-detail {
+  margin-top: 20px;
+}
+
+#second_introduction {
+  padding: 27px;
+}
+
+.div_1 {
+  text-align: center;
+}
+
+.div_1 img {
+  border: 1px solid #3490de;
+  border-radius: 4px;
+  padding: 5px;
+  width: 89%;
+}
+
+.div_2 {
+  /* background-color: royalblue; */
+  padding: 15px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 200;
+}
+
+#footer-section {
+  background-color: #3490de;
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#footer-section a {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 5px;
+  display: inline-block;
+}
