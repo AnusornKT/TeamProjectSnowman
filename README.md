@@ -8,8 +8,8 @@ The game consists of falling snowflakes along with an initial ball of snow. The 
 Collect 30 snowflakes!
 
 # 📖 How to play 📖
-Left Arrow - Move Left
-Right Arrow - Move Right
+- Left Arrow - Move Left
+- Right Arrow - Move Right
 
 # 🦌 Head up to our Game Website and Dundoc 🦌
 https://anusornkt.github.io/TeamProjectSnowman/
