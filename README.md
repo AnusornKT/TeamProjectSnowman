@@ -5,13 +5,14 @@ Our team has now created an interactive snow building game that anyone can play,
 The game consists of falling snowflakes along with an initial ball of snow. The player will have to catch snowflakes in order to build the rest of the snowman, adding to that initial ball of snow. The more snowflakes you collect the bigger the snowman becomes.
 
 # Game Rule:
-Coming soon...
+Collect 30 snowflakes!
 
 # 📖 How to play 📖
-Coming soon...
+Left Arrow - Move Left
+Right Arrow - Move Right
 
 # 🦌 Head up to our Game Website and Dundoc 🦌
-Coming soon...
+https://anusornkt.github.io/TeamProjectSnowman/
 
 # 🔔🔔 Give us your feedback 🔔🔔
 https://www.facebook.com/Snowman-104626128163809
